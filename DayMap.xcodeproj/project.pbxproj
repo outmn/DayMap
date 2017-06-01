@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE6B681C1EE0139600C901F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6B681B1EE0139600C901F8 /* AppDelegate.swift */; };
+		AE6B681E1EE0139600C901F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6B681D1EE0139600C901F8 /* ViewController.swift */; };
+		AE6B68211EE0139600C901F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE6B681F1EE0139600C901F8 /* Main.storyboard */; };
+		AE6B68241EE0139600C901F8 /* DayMap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE6B68221EE0139600C901F8 /* DayMap.xcdatamodeld */; };
+		AE6B68261EE0139600C901F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE6B68251EE0139600C901F8 /* Assets.xcassets */; };
+		AE6B68291EE0139600C901F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE6B68271EE0139600C901F8 /* LaunchScreen.storyboard */; };
+		AE6B68341EE0139600C901F8 /* DayMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6B68331EE0139600C901F8 /* DayMapTests.swift */; };
+		AE6B683F1EE0139600C901F8 /* DayMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6B683E1EE0139600C901F8 /* DayMapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE6B68301EE0139600C901F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE6B68101EE0139600C901F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE6B68171EE0139600C901F8;
+			remoteInfo = DayMap;
+		};
+		AE6B683B1EE0139600C901F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE6B68101EE0139600C901F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE6B68171EE0139600C901F8;
+			remoteInfo = DayMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE6B68181EE0139600C901F8 /* DayMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE6B681B1EE0139600C901F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE6B681D1EE0139600C901F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE6B68201EE0139600C901F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE6B68231EE0139600C901F8 /* DayMap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DayMap.xcdatamodel; sourceTree = "<group>"; };
+		AE6B68251EE0139600C901F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE6B68281EE0139600C901F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE6B682A1EE0139600C901F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE6B682F1EE0139600C901F8 /* DayMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE6B68331EE0139600C901F8 /* DayMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayMapTests.swift; sourceTree = "<group>"; };
+		AE6B68351EE0139600C901F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE6B683A1EE0139600C901F8 /* DayMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE6B683E1EE0139600C901F8 /* DayMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayMapUITests.swift; sourceTree = "<group>"; };
+		AE6B68401EE0139600C901F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE6B68151EE0139600C901F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6B682C1EE0139600C901F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6B68371EE0139600C901F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE6B680F1EE0139600C901F8 = {
+			isa = PBXGroup;
+			children = (
+				AE6B681A1EE0139600C901F8 /* DayMap */,
+				AE6B68321EE0139600C901F8 /* DayMapTests */,
+				AE6B683D1EE0139600C901F8 /* DayMapUITests */,
+				AE6B68191EE0139600C901F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE6B68191EE0139600C901F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE6B68181EE0139600C901F8 /* DayMap.app */,
+				AE6B682F1EE0139600C901F8 /* DayMapTests.xctest */,
+				AE6B683A1EE0139600C901F8 /* DayMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE6B681A1EE0139600C901F8 /* DayMap */ = {
+			isa = PBXGroup;
+			children = (
+				AE6B681B1EE0139600C901F8 /* AppDelegate.swift */,
+				AE6B681D1EE0139600C901F8 /* ViewController.swift */,
+				AE6B681F1EE0139600C901F8 /* Main.storyboard */,
+				AE6B68251EE0139600C901F8 /* Assets.xcassets */,
+				AE6B68271EE0139600C901F8 /* LaunchScreen.storyboard */,
+				AE6B682A1EE0139600C901F8 /* Info.plist */,
+				AE6B68221EE0139600C901F8 /* DayMap.xcdatamodeld */,
+			);
+			path = DayMap;
+			sourceTree = "<group>";
+		};
+		AE6B68321EE0139600C901F8 /* DayMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE6B68331EE0139600C901F8 /* DayMapTests.swift */,
+				AE6B68351EE0139600C901F8 /* Info.plist */,
+			);
+			path = DayMapTests;
+			sourceTree = "<group>";
+		};
+		AE6B683D1EE0139600C901F8 /* DayMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE6B683E1EE0139600C901F8 /* DayMapUITests.swift */,
+				AE6B68401EE0139600C901F8 /* Info.plist */,
+			);
+			path = DayMapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE6B68171EE0139600C901F8 /* DayMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE6B68431EE0139600C901F8 /* Build configuration list for PBXNativeTarget "DayMap" */;
+			buildPhases = (
+				AE6B68141EE0139600C901F8 /* Sources */,
+				AE6B68151EE0139600C901F8 /* Frameworks */,
+				AE6B68161EE0139600C901F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DayMap;
+			productName = DayMap;
+			productReference = AE6B68181EE0139600C901F8 /* DayMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE6B682E1EE0139600C901F8 /* DayMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE6B68461EE0139600C901F8 /* Build configuration list for PBXNativeTarget "DayMapTests" */;
+			buildPhases = (
+				AE6B682B1EE0139600C901F8 /* Sources */,
+				AE6B682C1EE0139600C901F8 /* Frameworks */,
+				AE6B682D1EE0139600C901F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE6B68311EE0139600C901F8 /* PBXTargetDependency */,
+			);
+			name = DayMapTests;
+			productName = DayMapTests;
+			productReference = AE6B682F1EE0139600C901F8 /* DayMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE6B68391EE0139600C901F8 /* DayMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE6B68491EE0139600C901F8 /* Build configuration list for PBXNativeTarget "DayMapUITests" */;
+			buildPhases = (
+				AE6B68361EE0139600C901F8 /* Sources */,
+				AE6B68371EE0139600C901F8 /* Frameworks */,
+				AE6B68381EE0139600C901F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE6B683C1EE0139600C901F8 /* PBXTargetDependency */,
+			);
+			name = DayMapUITests;
+			productName = DayMapUITests;
+			productReference = AE6B683A1EE0139600C901F8 /* DayMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE6B68101EE0139600C901F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Maxim  Grozniy";
+				TargetAttributes = {
+					AE6B68171EE0139600C901F8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = XJ5S8AVJFY;
+						ProvisioningStyle = Automatic;
+					};
+					AE6B682E1EE0139600C901F8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = XJ5S8AVJFY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE6B68171EE0139600C901F8;
+					};
+					AE6B68391EE0139600C901F8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = XJ5S8AVJFY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE6B68171EE0139600C901F8;
+					};
+				};
+			};
+			buildConfigurationList = AE6B68131EE0139600C901F8 /* Build configuration list for PBXProject "DayMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE6B680F1EE0139600C901F8;
+			productRefGroup = AE6B68191EE0139600C901F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE6B68171EE0139600C901F8 /* DayMap */,
+				AE6B682E1EE0139600C901F8 /* DayMapTests */,
+				AE6B68391EE0139600C901F8 /* DayMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE6B68161EE0139600C901F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6B68291EE0139600C901F8 /* LaunchScreen.storyboard in Resources */,
+				AE6B68261EE0139600C901F8 /* Assets.xcassets in Resources */,
+				AE6B68211EE0139600C901F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6B682D1EE0139600C901F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6B68381EE0139600C901F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE6B68141EE0139600C901F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6B681E1EE0139600C901F8 /* ViewController.swift in Sources */,
+				AE6B681C1EE0139600C901F8 /* AppDelegate.swift in Sources */,
+				AE6B68241EE0139600C901F8 /* DayMap.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6B682B1EE0139600C901F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6B68341EE0139600C901F8 /* DayMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6B68361EE0139600C901F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6B683F1EE0139600C901F8 /* DayMapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE6B68311EE0139600C901F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE6B68171EE0139600C901F8 /* DayMap */;
+			targetProxy = AE6B68301EE0139600C901F8 /* PBXContainerItemProxy */;
+		};
+		AE6B683C1EE0139600C901F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE6B68171EE0139600C901F8 /* DayMap */;
+			targetProxy = AE6B683B1EE0139600C901F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE6B681F1EE0139600C901F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE6B68201EE0139600C901F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE6B68271EE0139600C901F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE6B68281EE0139600C901F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE6B68411EE0139600C901F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE6B68421EE0139600C901F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE6B68441EE0139600C901F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XJ5S8AVJFY;
+				INFOPLIST_FILE = DayMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosxdevelop.DayMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AE6B68451EE0139600C901F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XJ5S8AVJFY;
+				INFOPLIST_FILE = DayMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosxdevelop.DayMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AE6B68471EE0139600C901F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XJ5S8AVJFY;
+				INFOPLIST_FILE = DayMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosxdevelop.DayMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DayMap.app/DayMap";
+			};
+			name = Debug;
+		};
+		AE6B68481EE0139600C901F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XJ5S8AVJFY;
+				INFOPLIST_FILE = DayMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosxdevelop.DayMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DayMap.app/DayMap";
+			};
+			name = Release;
+		};
+		AE6B684A1EE0139600C901F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = XJ5S8AVJFY;
+				INFOPLIST_FILE = DayMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosxdevelop.DayMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DayMap;
+			};
+			name = Debug;
+		};
+		AE6B684B1EE0139600C901F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = XJ5S8AVJFY;
+				INFOPLIST_FILE = DayMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosxdevelop.DayMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DayMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE6B68131EE0139600C901F8 /* Build configuration list for PBXProject "DayMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE6B68411EE0139600C901F8 /* Debug */,
+				AE6B68421EE0139600C901F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE6B68431EE0139600C901F8 /* Build configuration list for PBXNativeTarget "DayMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE6B68441EE0139600C901F8 /* Debug */,
+				AE6B68451EE0139600C901F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE6B68461EE0139600C901F8 /* Build configuration list for PBXNativeTarget "DayMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE6B68471EE0139600C901F8 /* Debug */,
+				AE6B68481EE0139600C901F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE6B68491EE0139600C901F8 /* Build configuration list for PBXNativeTarget "DayMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE6B684A1EE0139600C901F8 /* Debug */,
+				AE6B684B1EE0139600C901F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AE6B68221EE0139600C901F8 /* DayMap.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AE6B68231EE0139600C901F8 /* DayMap.xcdatamodel */,
+			);
+			currentVersion = AE6B68231EE0139600C901F8 /* DayMap.xcdatamodel */;
+			path = DayMap.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AE6B68101EE0139600C901F8 /* Project object */;
+}
